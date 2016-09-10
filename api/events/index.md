@@ -4,7 +4,10 @@
 
 ## GET /events
 
-List all user events
+List all user events. Event type (object_type) can be:
+- Lesson (You have received a new request for a lesson)
+- Mailboxer::Message (You have received a new message)
+- Review (You have a pending review)
 
 ### Example Request
 
