@@ -32,5 +32,9 @@ Create a new review for a lesson
 |----|--------|----|-----------|
 |```lesson_id```|required|integer|Id of the lesson related to the review|
 |```body```|required|string|Text of the review to be displayed on user's profile|
-|```note```|required|integer|Note (between 0 and 5) of the user|
+|```note```|required (only for a user)|integer|Note (between 0 and 5) of the teacher|
 |```call_quality```|not required|integer|Note (between 0 and 5) for the quality of the call|
+|```details['vocabulary']```|required (only for teacher)|integer|Note (between 0 and 5) for the vocabulary's user quality|
+|```details['grammar']```|required (only for teacher)|integer|Note (between 0 and 5) for the grammar's user quality|
+|```details['coolness']```|required (only for teacher)|integer|Note (between 0 and 5) for the coolness' user quality|
+|```details['oral']```|required (only for teacher)|integer|Note (between 0 and 5) for the oral's user quality|
