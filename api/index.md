@@ -1,12 +1,12 @@
 # Overview
 
-This is a general review of the Streamup API. If you have any problems or requests, please create an issue on this repository.
+This is a general review of the Speaken API. If you have any problems or requests, please create an issue on this repository.
 
 ## API Versions*
 
 The current version of the API is **v1**. We encourage you to explicitly specify a version via the ```Accept``` header.
 
-```Accept: application/vnd.streamup.v1+json```
+```Accept: application/vnd.speaken.v1+json```
 
 ## Base URL and Formats
 
@@ -52,7 +52,7 @@ This allows us to contact you if there are any problems.
 
 Example
 
-```User-Agent: Superduper-Streamup-App```
+```User-Agent: Superduper-speaken-App```
 
 ## Hypermedia
 
