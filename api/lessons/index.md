@@ -14,6 +14,14 @@
 
 List all lessons
 
+### Parameters
+
+|Name|Required|Type|Description|
+|----|--------|----|-----------|
+|```status```|not required|string|Only returns lesson that matches this status (can be pending, accepted, refused, canceled, pending_review or reviewed)|
+|```from```|not required|datetime|Only returns lesson that has started after this date|
+|```to```|not required|datetime|Only returns lesson that has started before this date|
+
 ### Example Request
 
 ```curl -X GET https://api.speaken.com/v1/lessons```
@@ -86,7 +94,7 @@ Join a lesson session
 
 ## DELETE /lessons/:lesson_id/users/:id
 
-Left a lesson session
+Left a lesson session or decline if the lesson hasn't started
 
 ### Example Request
 

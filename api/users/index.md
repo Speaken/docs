@@ -10,6 +10,8 @@
 |[POST /users/:user_id/availabilities](#put-usersme)| Add a new availability |
 |[POST /users/:user_id/followers](#put-usersme)| Follow a user |
 |[DELETE /users/:user_id/followers](#put-usersme)| Unfollow a user |
+|[POST /users/:user_id/favorite_tutors](#post-favorite)| Favorite a tutor |
+|[DELETE /users/:user_id/favorite_tutors](#delete-favorite)| Unfavorite a tutor |
 
 ## GET /users
 
@@ -125,3 +127,20 @@ Unfollow a user
 ### Example Request
 
 ```curl -X DELETE https://api.speaken.com/v1/users/1/followers```
+
+## POST /users/:user_id/favorite_tutors
+
+Favorite a tutor
+
+### Example Request
+
+```curl -X POST https://api.speaken.com/v1/users/1/favorite_tutors```
+
+
+## DELETE /users/:user_id/favorite_tutors
+
+
+Unfavorite a tutor
+### Example Request
+
+```curl -X DELETE https://api.speaken.com/v1/users/1/favorite_tutors```
