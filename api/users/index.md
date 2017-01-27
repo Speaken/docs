@@ -4,12 +4,14 @@
 |[POST /users](#get-usersme)| Create a new user account |
 |[GET /users/:id](#get-usersme)| Get user informations |
 |[GET /users/me](#get-usersme)| Get authenticated user informations |
-|[PATCH|PUT /users/:id](#get-usersme)| Update authenticated user|
+|[PATCH,PUT /users/:id](#get-usersme)| Update authenticated user|
 |[GET /users/:user_id/reviews](#put-usersme)| List all reviews for a user |
 |[GET /users/:user_id/availabilities](#put-usersme)| List all user availabilities |
 |[POST /users/:user_id/availabilities](#put-usersme)| Add a new availability |
 |[POST /users/:user_id/followers](#put-usersme)| Follow a user |
 |[DELETE /users/:user_id/followers](#put-usersme)| Unfollow a user |
+|[POST /users/:user_id/favorite_tutors](#post-favorite)| Favorite a tutor |
+|[DELETE /users/:user_id/favorite_tutors](#delete-favorite)| Unfavorite a tutor |
 
 ## POST /oauth/token
 
@@ -142,3 +144,20 @@ Unfollow a user
 ### Example Request
 
 ```curl -X DELETE https://api.speaken.com/v1/users/1/followers```
+
+## POST /users/:user_id/favorite_tutors
+
+Favorite a tutor
+
+### Example Request
+
+```curl -X POST https://api.speaken.com/v1/users/1/favorite_tutors```
+
+
+## DELETE /users/:user_id/favorite_tutors
+
+
+Unfavorite a tutor
+### Example Request
+
+```curl -X DELETE https://api.speaken.com/v1/users/1/favorite_tutors```
