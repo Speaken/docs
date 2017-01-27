@@ -11,6 +11,23 @@
 |[POST /users/:user_id/followers](#put-usersme)| Follow a user |
 |[DELETE /users/:user_id/followers](#put-usersme)| Unfollow a user |
 
+## POST /oauth/token
+
+Log in user
+
+### Parameters
+
+|Name|Required|Type|Description|
+|----|--------|----|-----------|
+|```username```|required|string|User's email|
+|```password```|required|string|User's password|
+|```grant_type```|required|string|Value: **password**|
+
+
+### Example Request
+
+```curl -X POST https://api.speaken.com/v1/oauth/token```
+
 ## GET /users
 
 List all teachers
