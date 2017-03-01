@@ -16,7 +16,7 @@ Get all company invitations
 
 ## POST /company/invitations
 
-Create a new user account
+Create a new invitation
 
 ### Parameters
 
@@ -32,7 +32,7 @@ Create a new user account
 
 ## DELETE /company/invitations/:id
 
-Delete a company invitation token
+Delete a company invitation
 
 ### Example Request
 
