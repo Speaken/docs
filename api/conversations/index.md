@@ -2,7 +2,7 @@
 |--------|-----------|
 |[GET /conversations](#get-conversation)| List all user conversations|
 |[POST /conversations](#create-conversation)| Create a new conversation|
-|[PATCH|PUT /conversations/:id](#patch-conversation)| Mark a conversation as read|
+|[PATCH or PUT /conversations/:id](#patch-conversation)| Mark a conversation as read|
 |[DELETE /conversations/:id](#delete-conversation)| Delete a converation|
 |[GET /conversations/:id/messages](#get-conversation-messages)| List all conversation messages|
 |[POST /conversations/:id/messages](#post-conversation-messages)| Send a new message to a conversation|

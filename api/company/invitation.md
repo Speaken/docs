@@ -2,7 +2,7 @@
 |--------|-----------|
 |[GET /company/invitations](#get-invitations)| List all company invitation |
 |[POST /company/invitations](#create-invitation)| Create a new company invitation token |
-|[DELETE /company/invitations/:id](#delete-invitation)| Create a new company invitation token |
+|[DELETE /company/invitations/:id](#delete-invitation)| Delete a company invitation token |
 
 
 ## GET /company/invitations
@@ -16,7 +16,7 @@ Get all company invitations
 
 ## POST /company/invitations
 
-Create a new user account
+Create a new invitation
 
 ### Parameters
 

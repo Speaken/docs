@@ -5,7 +5,7 @@
 |[PUT /payment/subscriptions/:id](#update-subscription)| Update user web subscription|
 |[DELETE /payment/subscriptions/:id](#delete-subscription)| Delete user web subscription|
 
-## POST /payments/subscriptions
+## POST /payment/subscriptions
 
 Create a new web (stripe) subscription
 
@@ -22,7 +22,7 @@ Create a new web (stripe) subscription
 
 
 
-## GET /payments/subscriptions/:id
+## GET /payment/subscriptions/:id
 
 Show details about user web (stripe) subscription
 
@@ -31,7 +31,7 @@ Show details about user web (stripe) subscription
 ```curl https://api.speaken.com/v1/payment/subscriptions/1```
 
 
-## PUT /payments/subscriptions/:id
+## PUT /payment/subscriptions/:id
 
 Update user web (stripe) subscription
 
@@ -47,7 +47,7 @@ Update user web (stripe) subscription
 ```curl -X PUT https://api.speaken.com/v1/payment/subscriptions/1```
 
 
-## DELETE /payments/subscriptions/:id
+## DELETE /payment/subscriptions/:id
 
 Delete user web (stripe) subscription
 

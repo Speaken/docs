@@ -76,6 +76,14 @@ curl 'https://api.speaken.com/v1/conversations?page=2&per_page=100'
 
 Note that page numbering is 1-based and that omitting the ?page parameter will return the first page.
 
+## Realtime events
+
+We have 4 types of live events, send to the user channel based on it user id: user_id (example: user_21)
+- join_lesson
+- leave_lesson
+- request_lesson
+- new_message
+
 ## Resources
 
 ## Terms of Service*
