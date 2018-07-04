@@ -165,6 +165,9 @@ Unfavorite a tutor
 
 ```curl -X DELETE https://api.speaken.com/v1/users/1/favorite_tutors```
 
+
+## GET /users/resend_confirmation_email
+
 Resend account confirmation email
 
 ### Example Request
