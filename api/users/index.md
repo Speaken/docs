@@ -16,6 +16,23 @@
 
 resend_confirmation_email
 
+## POST /oauth/token
+
+Log in user
+
+### Parameters
+
+|Name|Required|Type|Description|
+|----|--------|----|-----------|
+|```username```|required|string|User's email|
+|```password```|required|string|User's password|
+|```grant_type```|required|string|Value: **password**|
+
+
+### Example Request
+
+```curl -X POST https://api.speaken.com/v1/oauth/token```
+
 ## GET /users
 
 List all teachers

@@ -11,6 +11,7 @@ Create a new receipt
 |Name|Required|Type|Description|
 |----|--------|----|-----------|
 |```receipt[:token]```|required|string|Token returned by apple to be validated|
+|```receipt[:provider]```|not required|string|Token provider value (Apple or Android) - default to Apple|
 
 
 ### Example Request
