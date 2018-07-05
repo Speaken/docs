@@ -170,6 +170,12 @@ Unfavorite a tutor
 
 Resend account confirmation email
 
+### Parameters
+
+|Name|Required|Type|Description|
+|----|--------|----|-----------|
+|```email```|required|string|User's email|
+
 ### Example Request
 
-```curl -X GET https://api.speaken.com/v1/users/resend_confirmation_email```
+```curl -X GET https://api.speaken.com/v1/users/resend_confirmation_email?email=XXX```
