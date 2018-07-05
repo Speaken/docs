@@ -12,7 +12,7 @@
 |[DELETE /users/:user_id/followers](#put-usersme)| Unfollow a user |
 |[POST /users/:user_id/favorite_tutors](#post-favorite)| Favorite a tutor |
 |[DELETE /users/:user_id/favorite_tutors](#delete-favorite)| Unfavorite a tutor |
-|[GET /users/resend_confirmation_email](#resend-confirmation-email)| Resend confirmation email |
+|[GET /users/email/resend_confirmation](#resend-confirmation-email)| Resend confirmation email |
 
 resend_confirmation_email
 
@@ -166,7 +166,7 @@ Unfavorite a tutor
 ```curl -X DELETE https://api.speaken.com/v1/users/1/favorite_tutors```
 
 
-## GET /users/resend_confirmation_email
+## GET /users/email/resend_confirmation
 
 Resend account confirmation email
 
@@ -178,4 +178,4 @@ Resend account confirmation email
 
 ### Example Request
 
-```curl -X GET https://api.speaken.com/v1/users/resend_confirmation_email?email=XXX```
+```curl -X GET https://api.speaken.com/v1/users/email/resend_confirmation?email=XXX```
