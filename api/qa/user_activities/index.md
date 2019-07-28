@@ -33,6 +33,7 @@ Create a new user_activity.
 
 |Name|Required|Type|Description|
 |----|--------|----|-----------|
+|```size```|not required|number|Query Parameter. If used, it will automatically create LemmaUserActivityType and UserActivityItem for the activity_type|
 |```user_activity[:qa_activity_id]```|required|string|Id of the qa_activity|
 |```user_activity[:started_at]```|required|datetime|Date value when the user_activity has started|
 |```user_activity[:ended_at]```|required|datetime|Date value when the user_activity has ended|

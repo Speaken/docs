@@ -8,6 +8,8 @@
 List all user activities.
 
 ### Parameters
+
+|Name|Required|Type|Description|
 |----|--------|----|-----------|
 |```:by_activity```|not required|string|Filter activities by an activity type|
 |```:skill_id```|not required|integer|Filter activities by a skill id|
