@@ -172,18 +172,31 @@ Unfavorite a tutor
 
 Add a recommended tutor
 
+### Parameters
+
+|Name|Required|Type|Description|
+|----|--------|----|-----------|
+|```tutor_id```|required|number|ID of the tutor we want to set as recommended for the user_id|
+
 ### Example Request
 
-```curl -X POST https://api.speaken.com/v1/users/1/recommended_tutors```
+```curl -X POST -d '{"tutor_id":"2"}' https://api.speaken.com/v1/users/1/recommended_tutors```
 
 
 ## DELETE /users/:user_id/recommended_tutors
 
 
 Delete a recommended a tutor
+
+### Parameters
+
+|Name|Required|Type|Description|
+|----|--------|----|-----------|
+|```tutor_id```|required|number|ID of the tutor we want to set as recommended for the user_id|
+
 ### Example Request
 
-```curl -X DELETE https://api.speaken.com/v1/users/1/recommended_tutors```
+```curl -X DELETE -d '{"tutor_id":"2"}' https://api.speaken.com/v1/users/1/recommended_tutors```
 
 ## GET /users/email/resend_confirmation
 
