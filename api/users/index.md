@@ -12,6 +12,8 @@
 |[DELETE /users/:user_id/followers](#put-usersme)| Unfollow a user |
 |[POST /users/:user_id/favorite_tutors](#post-favorite)| Favorite a tutor |
 |[DELETE /users/:user_id/favorite_tutors](#delete-favorite)| Unfavorite a tutor |
+|[POST /users/:user_id/recommended_tutors](#post-favorite)| Add a recommended tutor |
+|[DELETE /users/:user_id/recommended_tutor_tutors](#delete-favorite)| Delete a recommended tutor |
 |[GET /users/email/resend_confirmation](#resend-confirmation-email)| Resend confirmation email |
 
 resend_confirmation_email
@@ -165,6 +167,23 @@ Unfavorite a tutor
 
 ```curl -X DELETE https://api.speaken.com/v1/users/1/favorite_tutors```
 
+
+## POST /users/:user_id/recommended_tutors
+
+Add a recommended tutor
+
+### Example Request
+
+```curl -X POST https://api.speaken.com/v1/users/1/recommended_tutors```
+
+
+## DELETE /users/:user_id/recommended_tutors
+
+
+Delete a recommended a tutor
+### Example Request
+
+```curl -X DELETE https://api.speaken.com/v1/users/1/recommended_tutors```
 
 ## GET /users/email/resend_confirmation
 
